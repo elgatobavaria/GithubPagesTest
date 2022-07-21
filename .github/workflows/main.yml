@@ -5,22 +5,22 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+    
 jobs:
-  build-docs:
-    name: Build Docs
+  hello_world_job:
     runs-on: ubuntu-latest
+    name: A job to say hello
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Build Documentation
-      uses: nikeee/docfx-action@v1.0.0
+    - uses: actions/checkout@v1
+    # ...
+    - uses: nikeee/docfx-action@v1.0.0
+      name: Build Documentation
       with:
-        args: docfx_project/docfx.json
+        args: path/to/your/docfx.json
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
+    # Publish generated site using GitHub Pages
+    - uses: maxheld83/ghpages@master
+      name: Publish Documentation on GitHub Pages
+      env:
+        BUILD_DIR: _site # docfx's default output directory is _site
+        GH_PAT: ${{ secrets.GH_PAT }} # See https://github.com/maxheld83/ghpages
