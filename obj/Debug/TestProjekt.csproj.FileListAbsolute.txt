@@ -1,7 +1,0 @@
-D:\01_Workspace\03_Common\GithubPagesTest\bin\Debug\TestProjekt.exe.config
-D:\01_Workspace\03_Common\GithubPagesTest\bin\Debug\TestProjekt.exe
-D:\01_Workspace\03_Common\GithubPagesTest\bin\Debug\TestProjekt.pdb
-D:\01_Workspace\03_Common\GithubPagesTest\obj\Debug\TestProjekt.csprojAssemblyReference.cache
-D:\01_Workspace\03_Common\GithubPagesTest\obj\Debug\TestProjekt.csproj.CoreCompileInputs.cache
-D:\01_Workspace\03_Common\GithubPagesTest\obj\Debug\TestProjekt.exe
-D:\01_Workspace\03_Common\GithubPagesTest\obj\Debug\TestProjekt.pdb
