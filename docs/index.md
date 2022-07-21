@@ -1,1 +1,1 @@
-<a href="./_site/articles/intro.html" target="_top">Welcome the documentation - Click here to start with 'Articles'</a>
+<a href="./_site/index.html" target="_top">Klick here to go to docu</a>
