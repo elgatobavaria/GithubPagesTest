@@ -44,11 +44,10 @@
         ],
         "exclude": [
           "obj/**",
-          "docs/**"
         ]
       }
     ],
-    "dest": "docs",
+    "dest": "../docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
