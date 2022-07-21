@@ -1,1 +1,0 @@
-<a href="./_site/index.html" target="_top">Klick here to go to docu</a>
