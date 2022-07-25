@@ -7,7 +7,7 @@
 #  workflow_dispatch:
 #jobs:
 #  build_docfx_docu_ghPage:
-#    runs-on: ubuntu-latest
+#    runs-on: ubuntu-18.04
 #    name: A job to build docu for GitHub-Page
 #    steps:
 #    - uses: actions/checkout@v1
